@@ -8,8 +8,7 @@ before_install:
   - npm install -g tsd
   - ./setup.sh
 
-script:
-  - make watch
+script: make webpack
 
 notifications:
   email: false
