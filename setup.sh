@@ -29,7 +29,7 @@ if [ $? -ne 0 ] ; then
 	ISERROR=1
 fi
 
-if [ $ISERROR == 1 ] ; then
+if [ $ISERROR -ne 0 ] ; then
 	exit
 fi
 
