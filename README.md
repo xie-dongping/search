@@ -1,5 +1,7 @@
 # Impact Search
 
+[![Build Status](https://travis-ci.org/xie-dongping/search.svg?branch=travis_ci)](https://travis-ci.org/xie-dongping/search)
+
 This is a simple web application built using
 [React](http://reactjs.com) and
 [TypeScript](http://www.typescriptlang.org/).  It uses an index file
