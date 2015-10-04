@@ -8,7 +8,7 @@ before_install:
   - npm install -g tsd
   - ./setup.sh
 
-script: make webpack
+script: make local
 
 notifications:
   email: false
