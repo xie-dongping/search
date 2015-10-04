@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 0.13
+
+before_install:
+  - npm install -g webpack-dev-server
+  - npm install -g bower
+  - npm install -g tsd
+  - ./setup.sh
+
+script:
+  - make watch
+
+notifications:
+  email: false
