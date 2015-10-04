@@ -13,3 +13,5 @@ script:
 
 notifications:
   email: false
+
+cache: false
